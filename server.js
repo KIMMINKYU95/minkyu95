@@ -32,9 +32,12 @@ server.get('/study', (req, res, next) => {
 
     console.log(req.query.name);
     let student = {
-        id : 0,
-        name : "test",
-        age : 5
+        idx : 1,
+        sensor_type :"T",
+        sensor_value :"55",
+        ins_date :"2020-11-27",
+        sensor_user : "KIMMINKYU"
+
     }
 
     if(req.query.id !== null && req.query.id !== undefined){
